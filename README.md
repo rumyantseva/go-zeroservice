@@ -1,3 +1,4 @@
+[![Release](https://img.shields.io/badge/release-1.0.0-brightgreen.svg?style=default?style=flat)](https://github.com/rumyantseva/go-zeroservice/releases/latest)
 [![Build Status](https://travis-ci.org/rumyantseva/go-zeroservice.svg?branch=master)](https://travis-ci.org/rumyantseva/go-zeroservice)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rumyantseva/go-zeroservice)](https://goreportcard.com/report/github.com/rumyantseva/go-zeroservice)
 
