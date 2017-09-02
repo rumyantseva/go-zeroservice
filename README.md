@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/rumyantseva/go-zeroservice.svg?branch=master)](https://travis-ci.org/rumyantseva/go-zeroservice)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rumyantseva/go-zeroservice)](https://goreportcard.com/report/github.com/rumyantseva/go-zeroservice)
 
 # go-zeroservice
 
