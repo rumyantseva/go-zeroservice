@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rumyantseva/go-zeroservice.svg?branch=master)](https://travis-ci.org/rumyantseva/go-zeroservice)
+
 # go-zeroservice
 
 A "zero" web service written in Go.
