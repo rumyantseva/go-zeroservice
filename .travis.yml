@@ -1,0 +1,13 @@
+language: go
+
+go:
+  - 1.9.x
+  - tip
+
+install:
+  - make prepare_metalinter
+
+script:
+  - make vendor
+  - make check
+  - make build
