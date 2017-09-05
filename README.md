@@ -4,10 +4,20 @@
 
 # go-zeroservice
 
-A "zero" web service written in Go.
+A "zero" web service written in Go. This service respresents an example for this article: [Готовим сборку Go-приложения в продакшн](https://habrahabr.ru/post/337158/).
 
-## Quick start
+## Quick start to try how it works
 
 - Use `make vendor` to update dependencies.
 - Use `make check` to check if there are no problems in the source code.
 - Use `make build` to prepare a build.
+
+## What the files mean
+
+Yes, there are a lot of configuration files here 🤓
+
+- `Makefile` is the most important one. It contains popular instructions to check and build the source code.
+- `Gopkg.toml` was made automatically by [dep](https://github.com/golang/dep), so `Gopkg.lock` did. It contains configuration of external dependecies. If you need to know more about dependencies and dep, please, watch [this video](https://www.youtube.com/watch?v=eZwR8qr2BfI).
+- `vendor` is a directory to store external dependencies, there is only [httrouter](https://github.com/julienschmidt/httprouter) here because it is my only dependency in this project. If I want to have production-readiness, I prefer to store this directory under git.
+- `.travis.yml` describes CI configuration for [Travis CI](http://travis-ci.org/).
+- And finally `app.go` and `version.go` contain the source code.
