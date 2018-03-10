@@ -1,6 +1,6 @@
 package main
 
-const (
+var (
 	version   = "unset"
 	commit    = "unset"
 	buildTime = "unset"
