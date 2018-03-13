@@ -1,5 +1,5 @@
 APP?=app
-RELEASE?=1.0.0
+RELEASE?=1.0.1
 GOOS?=linux
 
 COMMIT?=$(shell git rev-parse --short HEAD)
